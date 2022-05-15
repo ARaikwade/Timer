@@ -4,10 +4,10 @@ This is thread safe Timer implementation for C++ developer using threads interna
 Timer implementation as of javaScript setTimeout and setInterval.
 
 setInterval is single shot timer which will call cb_function once after given miliseconds are passed.
-void Timer::timer::setInterval(function cb_function, int miliSec)
+**void Timer::timer::setInterval(function cb_function, int miliSec)**
 
 setTimeOut is loop based timer which will keep calling cb_function after given miliseconds till stop() method is not called
-void Timer::timer::setTimeOut(function cb_function, int milisec)
+**void Timer::timer::setTimeOut(function cb_function, int milisec)**
 
 Below is simple example of how to use the library. 
 
